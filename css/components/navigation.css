@@ -1,0 +1,65 @@
+nav {
+    width: 100%;
+
+    padding: 40px 0;
+
+    position: fixed;
+}
+
+.nav_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_linkButton {
+    display: flex;
+    gap: 60px;
+}
+
+.nav_link {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav_link a {
+    color: white;
+
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav_link_item {
+    height: min-content;
+
+    padding: 4px 0;
+
+    border-bottom: 2px solid transparent;
+}
+
+.nav_link_item:hover {
+    border-bottom: 2px solid #f5d189;
+}
+
+.nav_link_item:hover a {
+    color: #f5d189;
+}
+
+.nav_button {
+    display: flex;
+    gap: 15px;
+}
+
+.nav_button_login {
+    color: white;
+
+    border: 1px solid white;
+}
+
+.nav_button_register {
+    color: #42769c;
+
+    background-color: #f5d189;
+    border: 1px solid #f5d189;
+}
