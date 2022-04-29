@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 /* Import from pages folder */
-@import url(./pages/home.css);
+@import url(./pages/home/index.css);
 
 /* Import from components folder */
 @import url(./components/button.css);
