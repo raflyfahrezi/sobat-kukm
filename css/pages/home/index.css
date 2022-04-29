@@ -1,0 +1,6 @@
+@import url(./hero.css);
+@import url(./about.css);
+
+.home_content {
+    padding: 200px 0;
+}
