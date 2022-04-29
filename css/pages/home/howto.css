@@ -1,6 +1,18 @@
 .home_howto {
+    position: relative;
+
     display: flex;
     justify-content: space-between;
+}
+
+.home_howto::before {
+    position: absolute;
+    top: -120px;
+    right: -120px;
+
+    z-index: -1;
+
+    content: url('../../../assets/icons/HowToEllipse.svg');
 }
 
 .home_howto--register {
