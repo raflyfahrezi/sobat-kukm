@@ -1,0 +1,124 @@
+.home_howto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_howto--register {
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_howto--step {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.home_howto--stepSection {
+    width: 100%;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.home_howto--stepNumber {
+    min-width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #498fb6;
+
+    background-color: #f4fbff;
+
+    font-weight: bold;
+}
+
+.home_howto--stepText {
+    color: #498fb6;
+}
+
+.home_howto--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_howto--requirements {
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_howto--requirementsContent {
+    padding: 30px;
+
+    border-radius: 16px;
+
+    background-color: #f7f7f7;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_howto--requirementsTitle {
+    color: #498fb6;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home_howto--requirementsStep {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_howto--requirementsStepContent {
+    display: flex;
+    gap: 20px;
+}
+
+.home_howto--requirementsWarning {
+    padding: 16px;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    background-color: #f2faff;
+}
+
+.home_howto--requirementsWarningTitle {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.home_howto--requirementsWarningTitle p {
+    color: #498fb6;
+
+    font-weight: bold;
+}
+
+.home_howto--requirementsWarningButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home_howto--requirementsWarningText {
+    color: #8b8b8b;
+}
