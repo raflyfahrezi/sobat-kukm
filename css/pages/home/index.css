@@ -1,6 +1,11 @@
 @import url(./hero.css);
 @import url(./about.css);
+@import url(./howto.css);
 
 .home_content {
     padding: 200px 0;
+
+    display: flex;
+    gap: 200px;
+    flex-direction: column;
 }
