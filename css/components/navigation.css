@@ -66,11 +66,15 @@ nav {
 .nav_button_login {
     color: white;
 
+    font-weight: bold;
+
     border: 1px solid white;
 }
 
 .nav_button_register {
     color: #42769c;
+
+    font-weight: bold;
 
     background-color: #f5d189;
     border: 1px solid #f5d189;
