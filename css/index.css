@@ -1,6 +1,19 @@
+/* Import font from Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Import from pages folder */
+@import url(./pages/home.css);
+
+/* Import from components folder */
+@import url(./components/button.css);
+@import url(./components/container.css);
+@import url(./components/navigation.css);
+
 * {
     margin: 0;
     padding: 0;
+
+    font-family: 'Poppins';
 
     box-sizing: border-box;
 }
