@@ -1,0 +1,67 @@
+.home_about {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.home_about--content {
+    max-width: 600px;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_about--title p {
+    color: #498fb6;
+
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.home_about--title span {
+    color: #f5d189 !important;
+}
+
+.home_about--description p {
+    color: #7b7b7b;
+}
+
+.home_about--image img {
+    width: 100%;
+}
+
+.home_about--stat {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.home_about--statContent {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.home_about--statDivider {
+    width: 1px;
+    height: 80px;
+
+    background-color: #9c9c9c;
+}
+
+.home_about--statNumber {
+    color: #498fb6;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home_about--statLabel {
+    color: #7b7b7b;
+}
