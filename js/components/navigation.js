@@ -1,13 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
+const setNavigationToScrolled = () => {
     const navigationClass = document.getElementById('navigation').classList
 
-    window.addEventListener('scroll', () => {
-        if (window.scrollY >= 10) {
-            navigationClass.add('nav_scrolled')
+    if (window.scrollY >= 10) {
+        navigationClass.add('nav_scrolled')
 
-            return
-        }
+        return
+    }
 
-        navigationClass.remove('nav_scrolled')
-    })
+    navigationClass.remove('nav_scrolled')
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    setNavigationToScrolled()
+
+    window.addEventListener('scroll', setNavigationToScrolled)
 })
