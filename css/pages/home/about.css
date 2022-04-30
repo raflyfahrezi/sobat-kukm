@@ -8,7 +8,7 @@
 }
 
 .home_about--content {
-    max-width: 600px;
+    max-width: 500px;
 
     display: flex;
     gap: 30px;
@@ -28,6 +28,11 @@
 
 .home_about--description p {
     color: #7b7b7b;
+}
+
+.home_about--image {
+    width: 100%;
+    max-width: 500px;
 }
 
 .home_about--image img {
