@@ -13,13 +13,22 @@ nav {
 .nav_scrolled {
     background-color: #59a7d3;
 
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .nav_content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav_logo {
+    width: 100%;
+    max-width: 100px;
+}
+
+.nav_logo img {
+    width: 100%;
 }
 
 .nav_linkButton {
