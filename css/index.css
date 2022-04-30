@@ -5,6 +5,7 @@
 @import url(./pages/home/index.css);
 
 /* Import from components folder */
+@import url(./components/footer.css);
 @import url(./components/button.css);
 @import url(./components/scrollbar.css);
 @import url(./components/accordion.css);
