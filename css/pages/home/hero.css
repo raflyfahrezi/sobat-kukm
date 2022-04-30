@@ -72,3 +72,13 @@
     width: 100%;
     max-width: 600px;
 }
+
+@media (max-width: 500px) {
+    .hero_text > h1 {
+        text-align: left;
+    }
+
+    .hero_text > p {
+        text-align: left;
+    }
+}
