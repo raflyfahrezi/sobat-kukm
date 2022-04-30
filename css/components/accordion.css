@@ -18,7 +18,9 @@
     font-size: 18px;
     font-weight: bold;
 
-    padding: 18px;
+    padding: 18px 60px 18px 18px;
+
+    position: relative;
 
     outline: none;
 
@@ -34,15 +36,21 @@
     background-color: #f2faff;
 } */
 
-.accordion:after {
+.accordion::before {
+    height: 100%;
+
     position: absolute;
     right: 20px;
-    top: 12px;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     content: url('../../assets/icons/QnAArrowDown.svg');
 }
 
-.accordion--active:after {
+.accordion--active::before {
     content: url('../../assets/icons/QnAArrowUp.svg');
 }
 
