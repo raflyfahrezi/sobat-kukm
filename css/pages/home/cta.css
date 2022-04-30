@@ -85,6 +85,10 @@
 }
 
 @media (max-width: 900px) {
+    .home_cta {
+        padding-top: 100px;
+    }
+
     .home_cta--content {
         gap: 40px;
         flex-direction: column;
@@ -92,5 +96,11 @@
 
     .home_cta--contentText {
         text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .home_cta--wave {
+        top: 0px;
     }
 }
