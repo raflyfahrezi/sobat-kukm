@@ -1,0 +1,60 @@
+.accordion--wrapper {
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+
+    border-radius: 8px;
+
+    transition: 0.4s;
+
+    background-color: #ffffff;
+
+    position: relative;
+}
+
+.accordion {
+    width: 100%;
+
+    color: #498fb6;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 18px;
+
+    outline: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    background-color: transparent;
+}
+
+/* .accordion--active,
+.accordion:hover {
+    background-color: #f2faff;
+} */
+
+.accordion:after {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+
+    content: url('../../assets/icons/QnAArrowDown.svg');
+}
+
+.accordion--active:after {
+    content: url('../../assets/icons/QnAArrowUp.svg');
+}
+
+.accordion--panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion--panel p {
+    padding: 18px;
+
+    color: #7b7b7b;
+}
