@@ -1,0 +1,20 @@
+.home_qna {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_qna .home_about--title {
+    text-align: center;
+}
+
+.home_qna--content {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
