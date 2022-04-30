@@ -23,6 +23,8 @@
     display: flex;
     gap: 30px;
     flex-direction: column;
+
+    background-color: transparent;
 }
 
 .home_howto--step {
@@ -140,6 +142,10 @@
     .home_howto {
         gap: 60px;
         flex-direction: column;
+    }
+
+    .home_howto::before {
+        display: none;
     }
 
     .home_howto--register {
