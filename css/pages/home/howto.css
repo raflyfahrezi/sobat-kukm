@@ -2,6 +2,7 @@
     position: relative;
 
     display: flex;
+    gap: 30px;
     justify-content: space-between;
 }
 
@@ -133,4 +134,19 @@
 
 .home_howto--requirementsWarningText {
     color: #8b8b8b;
+}
+
+@media (max-width: 1000px) {
+    .home_howto {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .home_howto--register {
+        max-width: none;
+    }
+
+    .home_howto--requirements {
+        max-width: none;
+    }
 }
