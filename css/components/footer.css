@@ -95,3 +95,9 @@ footer {
 
     font-size: 14px;
 }
+
+.footer_cp_2 a {
+    color: white;
+
+    text-decoration: none;
+}
