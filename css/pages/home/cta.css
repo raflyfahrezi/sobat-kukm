@@ -1,0 +1,75 @@
+.home_cta {
+    width: 100%;
+
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    background-color: #f2faff;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.home_cta::before {
+    position: absolute;
+    top: -170px;
+    right: -170px;
+
+    content: url('../../../assets/icons/ctaEllipse.svg');
+}
+
+.home_cta::after {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+
+    z-index: 0;
+
+    content: url('../../../assets/icons/ctaEllipse.svg');
+}
+
+.home_cta--wave {
+    width: 100%;
+
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+
+    /* transform: rotate(180deg); */
+}
+
+.home_cta--wave img {
+    width: 100%;
+}
+
+.home_cta--content {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 3;
+}
+
+.home_cta--contentText {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.home_cta--contentText1 {
+    color: #498fb6;
+    font-weight: 500;
+
+    font-size: 18px;
+}
+
+.home_cta--contentText2 {
+    color: #498fb6;
+
+    font-size: 36px;
+    font-weight: 600;
+}
