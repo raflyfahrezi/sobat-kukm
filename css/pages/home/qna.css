@@ -10,6 +10,10 @@
 }
 
 .home_qna .home_about--title {
+    position: relative;
+
+    z-index: 2;
+
     text-align: center;
 }
 
