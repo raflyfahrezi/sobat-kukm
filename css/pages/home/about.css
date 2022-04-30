@@ -8,6 +8,7 @@
 }
 
 .home_about--content {
+    width: 100%;
     max-width: 500px;
 
     display: flex;
@@ -69,4 +70,15 @@
 
 .home_about--statLabel {
     color: #7b7b7b;
+}
+
+@media (max-width: 800px) {
+    .home_about {
+        gap: 100px;
+        flex-direction: column;
+    }
+
+    .home_about--stat {
+        justify-content: center;
+    }
 }
