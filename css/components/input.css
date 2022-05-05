@@ -29,7 +29,7 @@
     position: absolute;
     pointer-events: none;
 
-    top: 10px;
+    top: 12px;
     left: 10px;
 
     padding: 0 3px;
@@ -47,6 +47,14 @@
     transition: 0.2s ease all;
 }
 
+.inputPassword::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    content: url('../../assets/icons/eye.svg');
+}
+
 .inputText:focus ~ .floating-label,
 .inputText:not(:focus):valid ~ .floating-label {
     top: -8px;
@@ -59,4 +67,14 @@
 
 .inputText:focus {
     border: 2px solid #498fb6;
+}
+
+@media (max-width: 500px) {
+    .inputText {
+        font-size: 14px;
+    }
+
+    .floating-label {
+        font-size: 14px;
+    }
 }
