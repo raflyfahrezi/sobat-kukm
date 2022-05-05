@@ -9,3 +9,17 @@
 
     background-color: transparent;
 }
+
+.button-primary {
+    color: white;
+
+    font-weight: 600;
+
+    background-color: #59a7d3;
+
+    border: 1px solid #59a7d3;
+}
+
+.button-full {
+    width: 100%;
+}
