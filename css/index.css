@@ -3,15 +3,10 @@
 
 /* Import from pages folder */
 @import url(./pages/home/index.css);
+@import url(./pages/login/index.css);
 
 /* Import from components folder */
-@import url(./components/footer.css);
-@import url(./components/button.css);
-@import url(./components/scrollbar.css);
-@import url(./components/accordion.css);
-@import url(./components/container.css);
-@import url(./components/navigation.css);
-
+@import url(./components/index.css);
 * {
     margin: 0;
     padding: 0;
