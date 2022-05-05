@@ -68,13 +68,6 @@
     font-size: 18px;
 }
 
-.home_cta--contentText2 {
-    color: #498fb6;
-
-    font-size: 36px;
-    font-weight: 600;
-}
-
 .home_cta--contentImage {
     width: 100%;
     max-width: 500px;
@@ -102,5 +95,11 @@
 @media (max-width: 800px) {
     .home_cta--wave {
         top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home_cta--contentText1 {
+        font-size: 14px;
     }
 }
