@@ -2,8 +2,6 @@
     width: 100%;
     min-height: 100vh;
 
-    padding-top: 50px;
-
     background-size: 100%;
     background-color: #59a7d3;
     background-image: url(../../../assets/icons/authBackground.svg);
@@ -20,6 +18,8 @@
 .login_form {
     width: 100%;
     max-width: 400px;
+
+    margin: 130px 0 50px 0;
 
     padding: 30px;
     border-radius: 16px;
@@ -69,6 +69,10 @@
     font-size: 14px;
 }
 
+.login_settingRememberMe b {
+    color: #498fb6;
+}
+
 .login_formInput {
     display: flex;
     flex-direction: column;
@@ -84,6 +88,12 @@
     font-weight: 600;
 
     color: #498fb6;
+
+    text-decoration: none;
+}
+
+.login_noAccount a {
+    text-decoration: none;
 }
 
 .input_eyePassword {
