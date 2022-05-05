@@ -22,6 +22,12 @@ nav {
     justify-content: space-between;
 }
 
+.nav_content_auth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .nav_logo {
     width: 100%;
     max-width: 100px;
@@ -98,6 +104,23 @@ nav {
     border: 1px solid #f5d189;
 }
 
+.nav_auth_back {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_auth_back p {
+    font-size: 16px;
+
+    color: white;
+}
+
+.nav_auth_back a {
+    text-decoration: none;
+}
+
 @media (max-width: 900px) {
     .nav_linkButton {
         display: none;
@@ -106,6 +129,17 @@ nav {
 
 @media (min-width: 900px) {
     .nav_menu {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav_content_auth {
+        padding-top: 30px;
+        justify-content: center;
+    }
+
+    .nav_content_auth > .nav_logo {
         display: none;
     }
 }
