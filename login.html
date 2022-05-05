@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="shortcut icon" href="./assets/images/Favicon.png" />
+        <title>Sobat KUKM | Kementerian Koperasi dan UKM</title>
+    </head>
+    <body>
+        <!------------------------------ Navigation ------------------------------>
+
+        <nav id="navigation">
+            <div class="container">
+                <div class="nav_content_auth">
+                    <div class="nav_logo">
+                        <img
+                            src="./assets/icons/sobatKUKMLogo.svg"
+                            alt="Sobat KUKM"
+                        />
+                    </div>
+                    <div class="nav_auth_back">
+                        <div>
+                            <img
+                                src="./assets/icons/leftArrow.svg"
+                                alt="left Arrow"
+                            />
+                        </div>
+                        <a href="./index.html">
+                            <p>Kembali ke halaman utama</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!------------------------------ Content ------------------------------>
+
+        <div class="login_wrapper">
+            <div class="container">
+                <div class="login_content">
+                    <form class="login_form">
+                        <h1>Masuk Akun</h1>
+                        <p class="login_welcome_message">
+                            <b>Selamat datang!</b> Silakan masukkan NIK dan
+                            password kamu jika sudah memiliki akun
+                        </p>
+                        <div class="login_formInput">
+                            <div class="input">
+                                <input type="text" class="inputText" required />
+                                <span class="floating-label">NIK</span>
+                            </div>
+                            <div class="input">
+                                <input
+                                    name="password"
+                                    type="password"
+                                    class="inputText"
+                                    required
+                                />
+                                <span class="floating-label">Password</span>
+                                <div
+                                    id="passwordToggle"
+                                    class="input_eyePassword"
+                                >
+                                    <img
+                                        src="./assets/icons/eye.svg"
+                                        alt="Eye Password"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login_setting">
+                            <div class="login_settingRememberMe">
+                                <input
+                                    value=""
+                                    type="checkbox"
+                                    id="rememberme"
+                                    name="rememberme"
+                                />
+                                <label for="rememberme"> Ingat Saya</label>
+                            </div>
+                            <a href="">Lupa Password?</a>
+                        </div>
+                        <div>
+                            <button
+                                type="submit"
+                                class="button button-primary button-full"
+                            >
+                                Masuk
+                            </button>
+                        </div>
+                        <div class="login_noAccount">
+                            <p>Belum punya akun? <span>Daftar disini</span></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------ Footer ------------------------------>
+
+        <footer>
+            <div class="container">
+                <div class="footer_content">
+                    <!-- Footer About -->
+                    <div class="footer_about">
+                        <div
+                            class="footer_about--section footer_about--sectionAbout"
+                        >
+                            <div class="footer_about--sectionHeader">
+                                <div>
+                                    <img
+                                        src="./assets/images/pancasila.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <p>
+                                    Kementerian Koperasi dan Usaha Kecil dan
+                                    Menengah Republik Indonesia
+                                </p>
+                            </div>
+                            <p
+                                style="text-align: justify"
+                                class="footer_about--sectionText"
+                            >
+                                Kementerian Koperasi dan Usaha Kecil dan
+                                Menengah mempunyai tugas menyelenggarakan urusan
+                                di bidang koperasi dan usaha kecil dan menengah
+                                dalam pemerintahan untuk membantu Presiden dalam
+                                menyelenggarakan pemerintahan negara.
+                            </p>
+                        </div>
+
+                        <!-- Footer Navigation -->
+                        <div
+                            class="footer_about--section footer_about--sectionNavigation"
+                        >
+                            <div class="footer_about--sectionHeader">
+                                <p>Navigasi</p>
+                            </div>
+                            <div class="footer_about--sectionContent">
+                                <a
+                                    href="./index.html"
+                                    style="text-decoration: none"
+                                    class="footer_about--sectionText"
+                                >
+                                    <b>Beranda</b></a
+                                >
+                                <a
+                                    href="#home_about"
+                                    style="text-decoration: none"
+                                    class="footer_about--sectionText"
+                                    ><b>Tentang</b></a
+                                >
+                                <a
+                                    href="#home_howto"
+                                    style="text-decoration: none"
+                                    class="footer_about--sectionText"
+                                    ><b>Cara Daftar</b></a
+                                >
+                                <a
+                                    href="#home_qna"
+                                    style="text-decoration: none"
+                                    class="footer_about--sectionText"
+                                    ><b>Tanya Jawab</b></a
+                                >
+                            </div>
+                        </div>
+
+                        <!-- Footer Contact -->
+                        <div class="footer_about--section">
+                            <div class="footer_about--sectionHeader">
+                                <p>Kontak Kami</p>
+                            </div>
+                            <div class="footer_about--sectionContent">
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/phone.svg"
+                                            alt="Phone"
+                                        />
+                                    </div>
+                                    <p class="footer_about--sectionText">
+                                        <b>1500 587</b>
+                                    </p>
+                                </div>
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/instagram.svg"
+                                            alt="Instagram"
+                                        />
+                                    </div>
+                                    <a
+                                        href="https://www.instagram.com/kemenkopukm/"
+                                        class="footer_about--sectionText"
+                                    >
+                                        <b>@kemenkopukm</b>
+                                    </a>
+                                </div>
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/facebook.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a
+                                        href="https://www.facebook.com/kemenkopukm"
+                                        class="footer_about--sectionText"
+                                    >
+                                        <b>kemenkopukm</b>
+                                    </a>
+                                </div>
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/twitter.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a
+                                        href="https://twitter.com/KemenkopUKM"
+                                        class="footer_about--sectionText"
+                                    >
+                                        <b>@kemenkopukm</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer Location -->
+                        <div
+                            class="footer_about--section footer_about--sectionLocation"
+                        >
+                            <div class="footer_about--sectionHeader">
+                                <p>Lokasi Kami</p>
+                            </div>
+                            <p class="footer_about--sectionText">
+                                Jl. H. R. Rasuna Said No.Kav. 3-4, RT.6/RW.7,
+                                Kuningan, Karet Kuningan, Kecamatan Setiabudi,
+                                Kota Jakarta Selatan, Daerah Khusus Ibukota
+                                Jakarta 12940
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="footer_line" />
+                    <div class="footer_cp">
+                        <p class="footer_cp_1">
+                            Copyrights © 2022 Sobat KUKM | Kementerian Koperasi
+                            dan UKM
+                        </p>
+                        <p class="footer_cp_2">
+                            Photo by
+                            <a
+                                href="https://www.freepik.com/photos/restaurant-owne"
+                            >
+                                rawpixel
+                            </a>
+                            and
+                            <a
+                                href="https://www.freepik.com/photos/man-with-mobile"
+                            >
+                                diana.grytsku
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script type="module" src="./js/index.js"></script>
+</html>
