@@ -121,6 +121,11 @@ nav {
     text-decoration: none;
 }
 
+.nav_auth_back_logo {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 900px) {
     .nav_linkButton {
         display: none;
