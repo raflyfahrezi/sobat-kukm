@@ -115,6 +115,10 @@
     max-width: 20px;
 }
 
+.login_form_image {
+    text-align: center;
+}
+
 @media (max-width: 500px) {
     .login_form h1 {
         font-size: 24px;
