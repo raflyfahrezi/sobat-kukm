@@ -173,6 +173,26 @@ nav {
     flex-direction: column;
 }
 
+.navigation-form-step {
+    width: 100%;
+
+    position: relative;
+    top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #edf5f9;
+
+    padding: 16px 20px;
+}
+
+.navigation-form-step > p {
+    color: #59a7d3;
+
+    font-weight: bold;
+}
+
 @media (max-width: 900px) {
     .nav_linkButton {
         display: none;
