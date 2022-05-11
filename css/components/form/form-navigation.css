@@ -1,0 +1,99 @@
+.form-navigation {
+    width: 100%;
+    max-width: 260px;
+
+    padding: 45px 30px;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #59a7d3;
+}
+
+.form-navigation-logo {
+    width: 100%;
+
+    text-align: center;
+}
+
+.form-navigation-logo img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.form-navigation-content {
+    width: 100%;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.form-navigation-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-navigation-timeline-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-navigation-timeline-item > p {
+    color: white;
+
+    font-weight: bold;
+}
+
+.form-navigation-timeline-item-active {
+    color: #ffd37c !important;
+}
+
+.form-navigation-timeline-item-number {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    color: #498fb6;
+
+    background-color: white;
+}
+
+.form-navigation-timeline-line {
+    width: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-navigation-timeline-line > div {
+    width: 2px;
+    height: 30px;
+
+    background-color: white;
+}
+
+.form-navigation-logout {
+    display: flex;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+.form-navigation-logout p {
+    color: white;
+
+    font-weight: bold;
+}
