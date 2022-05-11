@@ -65,6 +65,10 @@
     color: #498fb6;
 }
 
+.inputText[type='date']:not(:focus):invalid {
+    color: white;
+}
+
 .inputText:focus {
     border: 2px solid #498fb6;
 }
@@ -77,4 +81,36 @@
     .floating-label {
         font-size: 14px;
     }
+}
+
+.input-radio {
+    margin: 10px 0;
+
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.input-radio-title {
+    font-size: 14px;
+
+    color: #7b7b7b;
+}
+
+.input-radio-label {
+    color: #7b7b7b;
+}
+
+.form-section-rtrw {
+    width: 100%;
+    max-width: 200px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.form-from-village-label {
+    font-weight: 500;
+
+    color: #498fb6;
 }
