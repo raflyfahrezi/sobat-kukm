@@ -1,13 +1,17 @@
 const setNavigationToScrolled = () => {
-    const navigationClass = document.getElementById('navigation').classList
+    const navigationElement = document.getElementById('navigation')
+
+    if (!navigationElement) {
+        return
+    }
 
     if (window.scrollY >= 10) {
-        navigationClass.add('nav_scrolled')
+        navigationElement.classList.add('nav_scrolled')
 
         return
     }
 
-    navigationClass.remove('nav_scrolled')
+    navigationElement.classList.remove('nav_scrolled')
 }
 
 const NavMenuButtonExitListener = () => {
