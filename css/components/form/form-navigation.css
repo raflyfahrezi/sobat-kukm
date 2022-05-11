@@ -97,3 +97,9 @@
 
     font-weight: bold;
 }
+
+@media (max-width: 900px) {
+    .form-navigation {
+        display: none;
+    }
+}
