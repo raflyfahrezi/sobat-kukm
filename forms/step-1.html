@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <link rel="shortcut icon" href="../assets/images/Favicon.png" />
+        <title>Sobat KUKM | Kementerian Koperasi dan UKM</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <!------------------------------ Navigation ------------------------------>
+            <div class="form-navigation">
+                <div class="form-navigation-content">
+                    <div class="form-navigation-logo">
+                        <img src="../assets/icons/sobatKUKMLogo.svg" alt="" />
+                    </div>
+                    <div class="form-navigation-timeline">
+                        <div class="form-navigation-timeline-item">
+                            <div class="form-navigation-timeline-item-number">
+                                <p>1</p>
+                            </div>
+                            <p class="form-navigation-timeline-item-active">
+                                Isi Data Diri
+                            </p>
+                        </div>
+                        <div class="form-navigation-timeline-line">
+                            <div></div>
+                        </div>
+                        <div class="form-navigation-timeline-item">
+                            <div class="form-navigation-timeline-item-number">
+                                <p>2</p>
+                            </div>
+                            <p>Isi Data Usaha</p>
+                        </div>
+                        <div class="form-navigation-timeline-line">
+                            <div></div>
+                        </div>
+                        <div class="form-navigation-timeline-item">
+                            <div class="form-navigation-timeline-item-number">
+                                <p>3</p>
+                            </div>
+                            <p>Unggah Berkas</p>
+                        </div>
+                        <div class="form-navigation-timeline-line">
+                            <div></div>
+                        </div>
+                        <div class="form-navigation-timeline-item">
+                            <div class="form-navigation-timeline-item-number">
+                                <p>4</p>
+                            </div>
+                            <p>Pernyataan</p>
+                        </div>
+                        <div class="form-navigation-timeline-line">
+                            <div></div>
+                        </div>
+                        <div class="form-navigation-timeline-item">
+                            <div class="form-navigation-timeline-item-number">
+                                <p>5</p>
+                            </div>
+                            <p>Selesai</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="../login.html" style="text-decoration: none">
+                        <div class="form-navigation-logout">
+                            <div>
+                                <img
+                                    src="../assets/icons/logout.svg"
+                                    alt="Exit"
+                                />
+                            </div>
+                            <p>Log Out</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------------------ Header and Content ------------------------------>
+            <div class="form-headercontent">
+                <!------------------------------ Header ------------------------------>
+                <div class="form-header">
+                    <p><b>Pendaftaran BPUM</b></p>
+                    <div class="form-header-user">
+                        <img src="../assets/icons/user.svg" alt="" />
+                        <p>raflyfahr15@gmail.com</p>
+                    </div>
+                </div>
+
+                <!------------------------------ Content ------------------------------>
+                <div class="form-content">
+                    <div class="form-title">
+                        <h2>Isi Data Diri</h2>
+                        <p>
+                            Silakan masukkan data diri dengan benar dan teliti!
+                        </p>
+                    </div>
+                    <div class="form-body">
+                        <div class="form-section">
+                            <div class="form-section-title">
+                                <p>Data Calon Penerima</p>
+                            </div>
+                            <form class="form-section-content">
+                                <div class="input">
+                                    <input
+                                        type="text"
+                                        class="inputText"
+                                        required
+                                    />
+                                    <span class="floating-label">NIK</span>
+                                </div>
+                                <div class="input">
+                                    <input
+                                        type="text"
+                                        class="inputText"
+                                        required
+                                    />
+                                    <span class="floating-label">Nomor KK</span>
+                                </div>
+                                <div class="input">
+                                    <input
+                                        type="text"
+                                        class="inputText"
+                                        required
+                                    />
+                                    <span class="floating-label"
+                                        >Nama Lengkap</span
+                                    >
+                                </div>
+                                <div class="input">
+                                    <input
+                                        type="date"
+                                        class="inputText"
+                                        required
+                                    />
+                                    <span class="floating-label"
+                                        >Tanggal Lahir</span
+                                    >
+                                </div>
+                                <div class="input-radio">
+                                    <p class="input-radio-title">
+                                        Jenis Kelamin:
+                                    </p>
+                                    <div>
+                                        <input
+                                            type="radio"
+                                            id="gender-pria"
+                                            name="gender"
+                                            value="pria"
+                                        />
+                                        <label
+                                            class="input-radio-label"
+                                            for="gender-pria"
+                                            >Pria</label
+                                        >
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="radio"
+                                            id="gender-wanita"
+                                            name="gender"
+                                            value="wanita"
+                                        />
+                                        <label
+                                            class="input-radio-label"
+                                            for="gender-wanita"
+                                            >Wanita</label
+                                        >
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <select class="inputText" required>
+                                        <option
+                                            value=""
+                                            selected
+                                            disabled
+                                            hidden
+                                        ></option>
+                                        <option value="pns">PNS</option>
+                                        <option value="wiraswasta">
+                                            Wiraswasta
+                                        </option>
+                                        <option value="wirausaha">
+                                            Wirausaha
+                                        </option>
+                                    </select>
+
+                                    <span class="floating-label"
+                                        >Pilih Pekerjaan</span
+                                    >
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-section">
+                            <div class="form-section-title">
+                                <p>Alamat Sesuai KTP</p>
+                            </div>
+                            <form class="form-section-content">
+                                <div class="input">
+                                    <select class="inputText" required>
+                                        <option
+                                            value=""
+                                            selected
+                                            disabled
+                                            hidden
+                                        ></option>
+                                        <option value="jawa-barat">
+                                            Jawa Barat
+                                        </option>
+                                        <option value="jawa-tengah">
+                                            Jawa Tengah
+                                        </option>
+                                        <option value="jawa-timur">
+                                            Jawa Timur
+                                        </option>
+                                    </select>
+
+                                    <span class="floating-label"
+                                        >Pilih Provinsi</span
+                                    >
+                                </div>
+                                <div class="input">
+                                    <select class="inputText" required>
+                                        <option
+                                            value=""
+                                            selected
+                                            disabled
+                                            hidden
+                                        ></option>
+                                        <option value="Kota Bandung">
+                                            Kota Bandung
+                                        </option>
+                                        <option value="Kabupaten Bandung">
+                                            Kabupaten Bandung
+                                        </option>
+                                        <option value="DKI Jakarta">
+                                            DKI Jakarta
+                                        </option>
+                                    </select>
+
+                                    <span class="floating-label"
+                                        >Pilih Kota/Kabupaten</span
+                                    >
+                                </div>
+                                <div class="input">
+                                    <select class="inputText" required>
+                                        <option
+                                            value=""
+                                            selected
+                                            disabled
+                                            hidden
+                                        ></option>
+                                        <option value="Cibeunying Kaler">
+                                            Cibeunying Kaler
+                                        </option>
+                                        <option value="Antapani">
+                                            Antapani
+                                        </option>
+                                        <option value="Coblong">Coblong</option>
+                                    </select>
+
+                                    <span class="floating-label"
+                                        >Pilih Kecamatan</span
+                                    >
+                                </div>
+                                <div class="form-section-kelurahan">
+                                    <div class="input">
+                                        <select
+                                            class="inputText"
+                                            id="form-kelurahan"
+                                            required
+                                        >
+                                            <option
+                                                value=""
+                                                selected
+                                                disabled
+                                                hidden
+                                            ></option>
+                                            <option value="Andir">Andir</option>
+                                            <option value="Astana Anyar">
+                                                Astana Anyar
+                                            </option>
+                                            <option value="Sukaluyu">
+                                                Sukaluyu
+                                            </option>
+                                        </select>
+
+                                        <span class="floating-label"
+                                            >Pilih Kelurahan</span
+                                        >
+                                    </div>
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            id="form-from-village"
+                                            name="form-from-village"
+                                            value="true"
+                                        />
+                                        <label
+                                            for="form-from-village"
+                                            class="form-from-village-label"
+                                        >
+                                            Berasal dari desa</label
+                                        >
+                                    </div>
+                                </div>
+                                <div
+                                    id="form-desa-container"
+                                    class="input"
+                                    style="display: none"
+                                >
+                                    <input
+                                        type="text"
+                                        id="form-desa"
+                                        class="inputText"
+                                        required
+                                    />
+                                    <span class="floating-label"
+                                        >Ketikkan Nama Desa</span
+                                    >
+                                </div>
+                                <div class="input">
+                                    <textarea
+                                        class="inputText"
+                                        required
+                                    ></textarea>
+                                    <span class="floating-label">Alamat</span>
+                                </div>
+                                <div class="form-section-rtrw">
+                                    <div class="input">
+                                        <input
+                                            type="text"
+                                            class="inputText"
+                                            required
+                                        />
+                                        <span class="floating-label">RT</span>
+                                    </div>
+                                    <div class="input">
+                                        <input
+                                            type="text"
+                                            class="inputText"
+                                            required
+                                        />
+                                        <span class="floating-label">RW</span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <div>
+                            <p class="form-button-text">
+                                Periksa kembali data yang telah diisi sebelum
+                                melanjutkan
+                            </p>
+                        </div>
+                        <div>
+                            <button class="button button-primary">
+                                Selanjutnya
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="../js/index.js"></script>
+</html>
