@@ -20,6 +20,16 @@
     border: 1px solid #59a7d3;
 }
 
+.button-secondary {
+    color: #7b7b7b;
+
+    font-weight: 600;
+
+    background-color: white;
+
+    border: 1px solid #7b7b7b;
+}
+
 .button-full {
     width: 100%;
 }
