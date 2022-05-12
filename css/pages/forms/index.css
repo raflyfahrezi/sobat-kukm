@@ -96,6 +96,69 @@
     color: #498fb6;
 }
 
+.form-section-pernyataan {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    padding: 16px;
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    background-color: #edf5f9;
+}
+
+.form-section-pernyataan > label {
+    font-weight: 500;
+
+    color: #498fb6;
+}
+
+.form-submit-success {
+    width: 100%;
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.form-submit-success-image {
+    width: 100%;
+    max-width: 300px;
+
+    margin: 0 auto;
+}
+
+.form-submit-success-image img {
+    width: 100%;
+}
+
+.form-submit-success-title {
+    font-size: 24px;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: #498fb6;
+}
+
+.form-submit-success-desc {
+    width: 100%;
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #7b7b7b;
+}
+
 @media (max-width: 700px) {
     .form-body {
         flex-direction: column;
