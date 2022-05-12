@@ -21,6 +21,8 @@
     outline: none;
 
     transition: 0.2s ease all;
+
+    background-color: white;
 }
 
 .floating-label {
