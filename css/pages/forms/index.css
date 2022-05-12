@@ -38,7 +38,7 @@
     width: 100%;
 
     display: flex;
-    gap: 30px;
+    gap: 60px;
     justify-content: space-between;
 }
 
@@ -80,6 +80,20 @@
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.form-usaha-same-address {
+    margin: 10px 0;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-usaha-same-address > p {
+    font-weight: 500;
+
+    color: #498fb6;
 }
 
 @media (max-width: 700px) {
