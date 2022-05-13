@@ -27,6 +27,10 @@ const setFormUploadFileKTP = () => {
         'form-upload-file-ktp-image'
     )
 
+    if (!formUploadFileKTPImage) {
+        return
+    }
+
     formUploadFileKTPImage.addEventListener('click', () => {
         formUploadFileKTPInput.click()
     })
@@ -41,6 +45,10 @@ const setFormUploadFileKK = () => {
         'form-upload-file-kk-image'
     )
 
+    if (!formUploadFileKKImage) {
+        return
+    }
+
     formUploadFileKKImage.addEventListener('click', () => {
         formUploadFileKKInput.click()
     })
@@ -54,6 +62,10 @@ const setFormUploadFileNIBSKU = () => {
     const formUploadFileNIBSKUImage = document.getElementById(
         'form-upload-file-nibsku-image'
     )
+
+    if (!formUploadFileNIBSKUImage) {
+        return
+    }
 
     formUploadFileNIBSKUImage.addEventListener('click', () => {
         formUploadFileNIBSKUInput.click()
