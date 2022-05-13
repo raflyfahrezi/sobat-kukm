@@ -18,6 +18,51 @@ const setVillageListener = () => {
     })
 }
 
+const setFormUploadFileKTP = () => {
+    const formUploadFileKTPInput = document.getElementById(
+        'form-upload-file-ktp-input'
+    )
+
+    const formUploadFileKTPImage = document.getElementById(
+        'form-upload-file-ktp-image'
+    )
+
+    formUploadFileKTPImage.addEventListener('click', () => {
+        formUploadFileKTPInput.click()
+    })
+}
+
+const setFormUploadFileKK = () => {
+    const formUploadFileKKInput = document.getElementById(
+        'form-upload-file-kk-input'
+    )
+
+    const formUploadFileKKImage = document.getElementById(
+        'form-upload-file-kk-image'
+    )
+
+    formUploadFileKKImage.addEventListener('click', () => {
+        formUploadFileKKInput.click()
+    })
+}
+
+const setFormUploadFileNIBSKU = () => {
+    const formUploadFileNIBSKUInput = document.getElementById(
+        'form-upload-file-nibsku-input'
+    )
+
+    const formUploadFileNIBSKUImage = document.getElementById(
+        'form-upload-file-nibsku-image'
+    )
+
+    formUploadFileNIBSKUImage.addEventListener('click', () => {
+        formUploadFileNIBSKUInput.click()
+    })
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     setVillageListener()
+    setFormUploadFileKK()
+    setFormUploadFileKTP()
+    setFormUploadFileNIBSKU()
 })
