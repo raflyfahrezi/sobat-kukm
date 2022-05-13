@@ -160,24 +160,72 @@
                             <div class="form-section-title">
                                 <p>File KTP</p>
                             </div>
-                            <form class="form-section-content"></form>
+                            <form class="form-section-content">
+                                <div class="form-upload">
+                                    <input
+                                        id="form-upload-file-ktp-input"
+                                        type="file"
+                                        style="display: none"
+                                        accept=".png, .jpg, .jpeg"
+                                        onchange="uploadFileReadURL(this,'form-upload-file-ktp-image');"
+                                    />
+                                    <img
+                                        id="form-upload-file-ktp-image"
+                                        class="form-upload-image"
+                                        src="../assets/icons/uploadFileKTP.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </form>
                         </div>
                         <div class="form-section">
                             <div class="form-section-title">
                                 <p>File Kartu Keluarga</p>
                             </div>
-                            <form class="form-section-content"></form>
+                            <form class="form-section-content">
+                                <div class="form-upload">
+                                    <input
+                                        id="form-upload-file-kk-input"
+                                        type="file"
+                                        style="display: none"
+                                        accept=".png, .jpg, .jpeg"
+                                        onchange="uploadFileReadURL(this,'form-upload-file-kk-image');"
+                                    />
+                                    <img
+                                        id="form-upload-file-kk-image"
+                                        class="form-upload-image"
+                                        src="../assets/icons/uploadFileKK.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </form>
                         </div>
                         <div class="form-section">
                             <div class="form-section-title">
                                 <p>File NIB/SKU</p>
                             </div>
-                            <form class="form-section-content"></form>
+                            <form class="form-section-content">
+                                <div class="form-upload">
+                                    <input
+                                        id="form-upload-file-nibsku-input"
+                                        type="file"
+                                        style="display: none"
+                                        accept=".png, .jpg, .jpeg"
+                                        onchange="uploadFileReadURL(this,'form-upload-file-nibsku-image');"
+                                    />
+                                    <img
+                                        id="form-upload-file-nibsku-image"
+                                        class="form-upload-image"
+                                        src="../assets/icons/uploadFileNIBSKU.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="form-button">
                         <div>
-                            <a href="./step-3.html">
+                            <a href="./step-2.html">
                                 <button class="button button-secondary">
                                     Sebelumnya
                                 </button>
@@ -195,5 +243,20 @@
             </div>
         </div>
     </body>
+    <script>
+        const uploadFileReadURL = (input, id) => {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader()
+
+                reader.onload = (e) => {
+                    const imageElement = document.getElementById(id)
+
+                    imageElement.setAttribute('src', e.target.result)
+                }
+
+                reader.readAsDataURL(input.files[0])
+            }
+        }
+    </script>
     <script type="module" src="../js/index.js"></script>
 </html>
