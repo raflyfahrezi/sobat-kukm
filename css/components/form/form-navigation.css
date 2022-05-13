@@ -2,6 +2,8 @@
     width: 100%;
     max-width: 260px;
 
+    position: relative;
+
     padding: 45px 30px;
 
     display: flex;
@@ -10,6 +12,20 @@
     justify-content: space-between;
 
     background-color: #59a7d3;
+
+    overflow: hidden;
+}
+
+.form-navigation::after {
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+
+    z-index: 0;
+
+    content: url('../../../assets/icons/sideBarEllipse.svg');
 }
 
 .form-navigation-logo {
@@ -29,6 +45,9 @@
     display: flex;
     gap: 30px;
     flex-direction: column;
+
+    position: relative;
+    z-index: 1;
 }
 
 .form-navigation-timeline {
