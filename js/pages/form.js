@@ -72,9 +72,47 @@ const setFormUploadFileNIBSKU = () => {
     })
 }
 
+const setFormNextStep4 = () => {
+    const formNextStep4Element = document.getElementById(
+        'form-button-next-step-4'
+    )
+
+    const modalConfirmationElement = document.getElementById(
+        'form-modal-confirmation'
+    )
+
+    if (!formNextStep4Element) {
+        return
+    }
+
+    formNextStep4Element.addEventListener('click', () => {
+        modalConfirmationElement.style.display = 'grid'
+    })
+}
+
+const setFormNextStep4Batal = () => {
+    const formNextStep4BatalElement = document.getElementById(
+        'form-modal-confirmation-batal'
+    )
+
+    const modalConfirmationElement = document.getElementById(
+        'form-modal-confirmation'
+    )
+
+    if (!formNextStep4BatalElement) {
+        return
+    }
+
+    formNextStep4BatalElement.addEventListener('click', () => {
+        modalConfirmationElement.style.display = 'none'
+    })
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    setFormNextStep4()
     setVillageListener()
     setFormUploadFileKK()
     setFormUploadFileKTP()
+    setFormNextStep4Batal()
     setFormUploadFileNIBSKU()
 })
