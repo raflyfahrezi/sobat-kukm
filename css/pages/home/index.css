@@ -5,9 +5,9 @@
 @import url(./howto.css);
 
 .home_content {
-    padding: 150px 0;
+    padding-bottom: 150px;
 
     display: flex;
-    gap: 200px;
+    /* gap: 200px; */
     flex-direction: column;
 }

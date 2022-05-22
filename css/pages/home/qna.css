@@ -7,6 +7,8 @@
     display: flex;
     gap: 30px;
     flex-direction: column;
+
+    padding-top: 150px;
 }
 
 .home_qna .home_about--title {

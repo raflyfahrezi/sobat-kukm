@@ -4,6 +4,8 @@
     display: flex;
     gap: 30px;
     justify-content: space-between;
+
+    padding-top: 150px;
 }
 
 .home_howto::before {
