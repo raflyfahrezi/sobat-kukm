@@ -162,71 +162,173 @@
                         </p>
                     </div>
                     <div class="form-body">
-                        <div class="form-section">
-                            <div class="form-section-title">
-                                <p>File KTP</p>
-                            </div>
-                            <form class="form-section-content">
-                                <div class="form-upload">
-                                    <input
-                                        id="form-upload-file-ktp-input"
-                                        type="file"
-                                        style="display: none"
-                                        accept=".png, .jpg, .jpeg"
-                                        onchange="uploadFileReadURL(this,'form-upload-file-ktp-image');"
-                                    />
-                                    <img
-                                        id="form-upload-file-ktp-image"
-                                        class="form-upload-image"
-                                        src="../assets/icons/uploadFileKTP.svg"
-                                        alt=""
-                                    />
+                        <div class="form-section form-section-upload">
+                            <div>
+                                <div class="form-section-title">
+                                    <p>File KTP</p>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="form-section">
-                            <div class="form-section-title">
-                                <p>File Kartu Keluarga</p>
+                                <form class="form-section-content">
+                                    <div class="form-upload">
+                                        <input
+                                            id="form-upload-file-ktp-input"
+                                            type="file"
+                                            style="display: none"
+                                            accept=".png, .jpg, .jpeg"
+                                            onchange="uploadFileReadURL(this,'form-upload-file-ktp-image');"
+                                        />
+                                        <div
+                                            class="form-upload-image-container"
+                                        >
+                                            <img
+                                                id="form-upload-file-ktp-image"
+                                                class="form-upload-image"
+                                                src="../assets/icons/uploadFileKTP.svg"
+                                                alt=""
+                                            />
+
+                                            <button
+                                                type="button"
+                                                id="form-upload-file-ktp-button"
+                                                class="button button-primary button-full"
+                                            >
+                                                Pilih
+                                            </button>
+                                        </div>
+                                        <div class="form-info-berkas">
+                                            <p>
+                                                &middot; Tekan tombol pilih
+                                                untuk membuka file manager.
+                                            </p>
+                                            <p>
+                                                &middot; Pilih foto/scan KTP,
+                                                pastikan foto yang dipilih sudah
+                                                benar dan terlihat dengan jelas.
+                                            </p>
+                                            <p>
+                                                &middot; Tekan foto yang sudah
+                                                di upload agar dapat melihat
+                                                lebih besar.
+                                            </p>
+                                            <p>
+                                                &middot; Jika foto yang diupload
+                                                salah anda dapat menekan tombol
+                                                pilih kembali.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <form class="form-section-content">
-                                <div class="form-upload">
-                                    <input
-                                        id="form-upload-file-kk-input"
-                                        type="file"
-                                        style="display: none"
-                                        accept=".png, .jpg, .jpeg"
-                                        onchange="uploadFileReadURL(this,'form-upload-file-kk-image');"
-                                    />
-                                    <img
-                                        id="form-upload-file-kk-image"
-                                        class="form-upload-image"
-                                        src="../assets/icons/uploadFileKK.svg"
-                                        alt=""
-                                    />
+                            <div>
+                                <div class="form-section-title">
+                                    <p>File Kartu Keluarga</p>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="form-section">
-                            <div class="form-section-title">
-                                <p>File NIB/SKU</p>
+                                <form class="form-section-content">
+                                    <div class="form-upload">
+                                        <input
+                                            id="form-upload-file-kk-input"
+                                            type="file"
+                                            style="display: none"
+                                            accept=".png, .jpg, .jpeg"
+                                            onchange="uploadFileReadURL(this,'form-upload-file-kk-image');"
+                                        />
+                                        <div
+                                            class="form-upload-image-container"
+                                        >
+                                            <img
+                                                id="form-upload-file-kk-image"
+                                                class="form-upload-image"
+                                                src="../assets/icons/uploadFileKK.svg"
+                                                alt=""
+                                            />
+                                            <button
+                                                type="button"
+                                                id="form-upload-file-kk-button"
+                                                class="button button-primary button-full"
+                                            >
+                                                Pilih
+                                            </button>
+                                        </div>
+                                        <div class="form-info-berkas">
+                                            <p>
+                                                &middot; Tekan tombol pilih
+                                                untuk membuka file manager.
+                                            </p>
+                                            <p>
+                                                &middot; Pilih foto/scan Kartu
+                                                Keluarga, pastikan foto yang
+                                                dipilih sudah benar dan terlihat
+                                                dengan jelas.
+                                            </p>
+                                            <p>
+                                                &middot; Tekan foto yang sudah
+                                                di upload agar dapat melihat
+                                                lebih besar.
+                                            </p>
+                                            <p>
+                                                &middot; Jika foto yang diupload
+                                                salah anda dapat menekan tombol
+                                                pilih kembali.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <form class="form-section-content">
-                                <div class="form-upload">
-                                    <input
-                                        id="form-upload-file-nibsku-input"
-                                        type="file"
-                                        style="display: none"
-                                        accept=".png, .jpg, .jpeg"
-                                        onchange="uploadFileReadURL(this,'form-upload-file-nibsku-image');"
-                                    />
-                                    <img
-                                        id="form-upload-file-nibsku-image"
-                                        class="form-upload-image"
-                                        src="../assets/icons/uploadFileNIBSKU.svg"
-                                        alt=""
-                                    />
+                            <div>
+                                <div class="form-section-title">
+                                    <p>File NIB/SKU</p>
                                 </div>
-                            </form>
+                                <form class="form-section-content">
+                                    <div class="form-upload">
+                                        <input
+                                            id="form-upload-file-nibsku-input"
+                                            type="file"
+                                            style="display: none"
+                                            accept=".png, .jpg, .jpeg"
+                                            onchange="uploadFileReadURL(this,'form-upload-file-nibsku-image');"
+                                        />
+                                        <div
+                                            class="form-upload-image-container"
+                                        >
+                                            <img
+                                                id="form-upload-file-nibsku-image"
+                                                class="form-upload-image"
+                                                src="../assets/icons/uploadFileNIBSKU.svg"
+                                                alt=""
+                                            />
+                                            <button
+                                                type="button"
+                                                id="form-upload-file-nibsku-button"
+                                                id="form-upload-file-kk-image"
+                                                class="button button-primary button-full"
+                                            >
+                                                Pilih
+                                            </button>
+                                        </div>
+                                        <div class="form-info-berkas">
+                                            <p>
+                                                &middot; Tekan tombol pilih
+                                                untuk membuka file manager.
+                                            </p>
+                                            <p>
+                                                &middot; Pilih foto/scan
+                                                NIB/SKU, pastikan foto yang
+                                                dipilih sudah benar dan terlihat
+                                                dengan jelas.
+                                            </p>
+                                            <p>
+                                                &middot; Tekan foto yang sudah
+                                                di upload agar dapat melihat
+                                                lebih besar.
+                                            </p>
+                                            <p>
+                                                &middot; Jika foto yang diupload
+                                                salah anda dapat menekan tombol
+                                                pilih kembali.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <div class="form-line"></div>

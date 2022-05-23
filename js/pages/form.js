@@ -1,7 +1,7 @@
 const setVillageListener = () => {
-    const desaContainerElement = document.getElementById('form-desa-container')
     const kelurahanElement = document.getElementById('form-kelurahan')
     const fromVillageElement = document.getElementById('form-from-village')
+    const desaContainerElement = document.getElementById('form-desa-container')
 
     if (!fromVillageElement) {
         return
@@ -23,15 +23,15 @@ const setFormUploadFileKTP = () => {
         'form-upload-file-ktp-input'
     )
 
-    const formUploadFileKTPImage = document.getElementById(
-        'form-upload-file-ktp-image'
+    const formUploadFileKTPButton = document.getElementById(
+        'form-upload-file-ktp-button'
     )
 
-    if (!formUploadFileKTPImage) {
+    if (!formUploadFileKTPButton) {
         return
     }
 
-    formUploadFileKTPImage.addEventListener('click', () => {
+    formUploadFileKTPButton.addEventListener('click', () => {
         formUploadFileKTPInput.click()
     })
 }
@@ -41,15 +41,15 @@ const setFormUploadFileKK = () => {
         'form-upload-file-kk-input'
     )
 
-    const formUploadFileKKImage = document.getElementById(
-        'form-upload-file-kk-image'
+    const formUploadFileKKButton = document.getElementById(
+        'form-upload-file-kk-button'
     )
 
-    if (!formUploadFileKKImage) {
+    if (!formUploadFileKKButton) {
         return
     }
 
-    formUploadFileKKImage.addEventListener('click', () => {
+    formUploadFileKKButton.addEventListener('click', () => {
         formUploadFileKKInput.click()
     })
 }
@@ -59,15 +59,15 @@ const setFormUploadFileNIBSKU = () => {
         'form-upload-file-nibsku-input'
     )
 
-    const formUploadFileNIBSKUImage = document.getElementById(
-        'form-upload-file-nibsku-image'
+    const formUploadFileNIBSKUButton = document.getElementById(
+        'form-upload-file-nibsku-button'
     )
 
-    if (!formUploadFileNIBSKUImage) {
+    if (!formUploadFileNIBSKUButton) {
         return
     }
 
-    formUploadFileNIBSKUImage.addEventListener('click', () => {
+    formUploadFileNIBSKUButton.addEventListener('click', () => {
         formUploadFileNIBSKUInput.click()
     })
 }
