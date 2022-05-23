@@ -331,12 +331,23 @@
                                     >
                                 </div>
                                 <div class="form-section-kelurahan">
-                                    <div class="input">
-                                        <select
+                                    <div
+                                        id="form-desa-container"
+                                        class="input"
+                                        style="display: none"
+                                    >
+                                        <input
+                                            type="text"
+                                            id="form-desa"
                                             class="inputText"
-                                            id="form-kelurahan"
                                             required
+                                        />
+                                        <span class="floating-label"
+                                            >Ketikkan Nama Desa</span
                                         >
+                                    </div>
+                                    <div class="input" id="form-kelurahan">
+                                        <select class="inputText" required>
                                             <option
                                                 value=""
                                                 selected
@@ -371,21 +382,7 @@
                                         >
                                     </div>
                                 </div>
-                                <div
-                                    id="form-desa-container"
-                                    class="input"
-                                    style="display: none"
-                                >
-                                    <input
-                                        type="text"
-                                        id="form-desa"
-                                        class="inputText"
-                                        required
-                                    />
-                                    <span class="floating-label"
-                                        >Ketikkan Nama Desa</span
-                                    >
-                                </div>
+
                                 <div class="input">
                                     <textarea
                                         class="inputText"

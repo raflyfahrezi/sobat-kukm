@@ -9,10 +9,10 @@ const setVillageListener = () => {
 
     fromVillageElement.addEventListener('click', (e) => {
         if (fromVillageElement.checked) {
-            kelurahanElement.disabled = true
+            kelurahanElement.style.display = 'none'
             desaContainerElement.style.display = 'block'
         } else {
-            kelurahanElement.disabled = false
+            kelurahanElement.style.display = 'block'
             desaContainerElement.style.display = 'none'
         }
     })
