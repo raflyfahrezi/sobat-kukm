@@ -10,8 +10,8 @@
 
 .home_howto::before {
     position: absolute;
-    top: -120px;
-    right: -120px;
+    top: 0px;
+    right: -100px;
 
     z-index: -1;
 
