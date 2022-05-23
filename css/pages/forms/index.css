@@ -187,6 +187,7 @@
 .form-upload-image-container {
     display: flex;
     gap: 10px;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -263,6 +264,10 @@
 
 @media (max-width: 700px) {
     .form-body {
+        flex-direction: column;
+    }
+
+    .form-upload {
         flex-direction: column;
     }
 }
