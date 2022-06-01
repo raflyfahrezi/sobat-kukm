@@ -9,16 +9,21 @@ footer {
 
     display: flex;
     gap: 70px;
+    justify-content: center;
 }
 
 .footer_about--sectionAbout {
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
+}
+
+.footer_about--sectionContact {
+    width: 100%;
+    max-width: 200px;
 }
 
 .footer_about--sectionLocation {
     width: 100%;
-    max-width: 300px;
 }
 
 .footer_about--sectionNavigation {
@@ -102,8 +107,30 @@ footer {
     text-decoration: none;
 }
 
+.footer_about--image {
+    width: 100%;
+    max-width: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer_about--image img {
+    width: 100%;
+
+    border-radius: 6px;
+}
+
 @media (max-width: 1000px) {
     .footer_about {
         flex-wrap: wrap;
+    }
+
+    .footer_about--sectionHeader {
+        justify-content: center;
+    }
+
+    .footer_about--sectionContact {
+        max-width: none;
     }
 }
