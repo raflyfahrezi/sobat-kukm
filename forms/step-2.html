@@ -166,10 +166,10 @@
                             <div class="form-section-title">
                                 <p>Alamat Usaha Calon Penerima</p>
                             </div>
-                            <form class="form-section-content">
+                            <form class="form-section-content" id="form-data-alamat">
                                 <div class="form-usaha-same-address">
                                     <label class="switch">
-                                        <input type="checkbox" />
+                                        <input type="checkbox" id="fmcek_alamat_sama"/>
                                         <span
                                             class="switch-slider round"
                                         ></span>
@@ -177,7 +177,7 @@
                                     <p>Alamat sama dengan KTP</p>
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmkode_provinsi">
                                         <option
                                             value=""
                                             selected
@@ -200,7 +200,7 @@
                                     >
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmkode_kota">
                                         <option
                                             value=""
                                             selected
@@ -223,7 +223,7 @@
                                     >
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmkode_kecamatan">
                                         <option
                                             value=""
                                             selected
@@ -260,7 +260,7 @@
                                         >
                                     </div>
                                     <div class="input" id="form-kelurahan">
-                                        <select class="inputText" required>
+                                        <select class="inputText" required id="fmkode_kelurahan">
                                             <option
                                                 value=""
                                                 selected
@@ -300,6 +300,7 @@
                                     <textarea
                                         class="inputText"
                                         required
+                                        id="fmalamat"
                                     ></textarea>
                                     <span class="floating-label">Alamat</span>
                                 </div>
@@ -309,6 +310,7 @@
                                             type="text"
                                             class="inputText"
                                             required
+                                            id="fmrt"
                                         />
                                         <span class="floating-label">RT</span>
                                     </div>
@@ -317,6 +319,7 @@
                                             type="text"
                                             class="inputText"
                                             required
+                                            id="fmrw"
                                         />
                                         <span class="floating-label">RW</span>
                                     </div>
@@ -327,9 +330,9 @@
                             <div class="form-section-title">
                                 <p>Detail Usaha Calon Penerima</p>
                             </div>
-                            <form class="form-section-content">
+                            <form class="form-section-content" id="form-data-detail">
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmbidang_usaha">
                                         <option
                                             value=""
                                             selected
@@ -346,7 +349,7 @@
                                     >
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmnib_sku">
                                         <option
                                             value=""
                                             selected
@@ -370,6 +373,7 @@
                                         type="text"
                                         class="inputText"
                                         required
+                                        id="fmnib_sku_nomor"
                                     />
                                     <span class="floating-label"
                                         >Nomor NIB/SKU</span
@@ -380,6 +384,7 @@
                                         type="text"
                                         class="inputText"
                                         required
+                                        id="fmnomor_telp"
                                     />
                                     <span class="floating-label">Nomor HP</span>
                                 </div>
@@ -408,4 +413,5 @@
         </div>
     </body>
     <script type="module" src="../js/index.js"></script>
+    <!--body-end-->
 </html>

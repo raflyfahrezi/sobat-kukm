@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../css/index.css" />
         <link rel="shortcut icon" href="../assets/images/Favicon.png" />
         <title>Sobat KUKM | Kementerian Koperasi dan UKM</title>
+        <!--head-end-->
     </head>
     <body>
         <!------------------------------ Responsive Navigation ------------------------------>
@@ -167,12 +168,13 @@
                             <div class="form-section-title">
                                 <p>Data Calon Penerima</p>
                             </div>
-                            <form class="form-section-content">
+                            <form class="form-section-content" id="form-data-diri">
                                 <div class="input">
                                     <input
                                         type="text"
                                         class="inputText"
                                         required
+                                        id="fmnik"
                                     />
                                     <span class="floating-label">NIK</span>
                                 </div>
@@ -181,6 +183,7 @@
                                         type="text"
                                         class="inputText"
                                         required
+                                        id="fmno_kk"
                                     />
                                     <span class="floating-label">Nomor KK</span>
                                 </div>
@@ -189,6 +192,7 @@
                                         type="text"
                                         class="inputText"
                                         required
+                                        id="fmnama"
                                     />
                                     <span class="floating-label"
                                         >Nama Lengkap</span
@@ -199,6 +203,7 @@
                                         type="date"
                                         class="inputText"
                                         required
+                                        id="fmtgl_lahir"
                                     />
                                     <span class="floating-label"
                                         >Tanggal Lahir</span
@@ -236,7 +241,7 @@
                                     </div>
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmrefid_status_pekerjaan">
                                         <option
                                             value=""
                                             selected
@@ -262,9 +267,9 @@
                             <div class="form-section-title">
                                 <p>Alamat Sesuai KTP</p>
                             </div>
-                            <form class="form-section-content">
+                            <form class="form-section-content" id="form-data-alamat">
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmkode_provinsi">
                                         <option
                                             value=""
                                             selected
@@ -287,7 +292,7 @@
                                     >
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmkode_kota">
                                         <option
                                             value=""
                                             selected
@@ -310,7 +315,7 @@
                                     >
                                 </div>
                                 <div class="input">
-                                    <select class="inputText" required>
+                                    <select class="inputText" required id="fmkode_kecamatan">
                                         <option
                                             value=""
                                             selected
@@ -347,7 +352,7 @@
                                         >
                                     </div>
                                     <div class="input" id="form-kelurahan">
-                                        <select class="inputText" required>
+                                        <select class="inputText" required id="fmkode_kelurahan">
                                             <option
                                                 value=""
                                                 selected
@@ -387,6 +392,7 @@
                                     <textarea
                                         class="inputText"
                                         required
+                                        id="fmalamat"
                                     ></textarea>
                                     <span class="floating-label">Alamat</span>
                                 </div>
@@ -396,6 +402,7 @@
                                             type="text"
                                             class="inputText"
                                             required
+                                            id="fmrt"
                                         />
                                         <span class="floating-label">RT</span>
                                     </div>
@@ -404,6 +411,7 @@
                                             type="text"
                                             class="inputText"
                                             required
+                                            id="fmrw"
                                         />
                                         <span class="floating-label">RW</span>
                                     </div>
@@ -432,4 +440,5 @@
         </div>
     </body>
     <script type="module" src="../js/index.js"></script>
+    <!--body-end-->
 </html>
