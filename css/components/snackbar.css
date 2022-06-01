@@ -2,7 +2,7 @@
     width: 100%;
 
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 
@@ -15,4 +15,50 @@
     border-radius: 4px;
 
     background-color: #edf5f9;
+}
+
+.snackbar-home-status {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -80px;
+
+    padding: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.snackbar-content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.snackbar-title {
+    font-size: 18px;
+
+    color: #498fb6;
+
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .snackbar-home-status {
+        width: 90%;
+        max-width: none;
+
+        padding: 10px;
+
+        bottom: -120px;
+    }
+
+    .snackbar-title {
+        font-size: 16px;
+    }
 }
