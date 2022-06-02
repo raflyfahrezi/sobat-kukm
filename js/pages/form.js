@@ -108,6 +108,29 @@ const setFormNextStep4Batal = () => {
     })
 }
 
+const setFormInputTextDisabledHandler = () => {
+    const listElement = document.querySelectorAll('.inputText')
+
+    for (let index = 0; index < listElement.length; index++) {
+        const element = listElement[index]
+
+        // console.log(element.disabled)
+
+        if (!element.disabled) {
+            continue
+        }
+
+        console.log(element.value)
+
+        if (element.value) {
+            const spanElement = element.parentElement.lastElementChild
+
+            spanElement.classList.add('floating-label-disabled-with-content')
+            element.classList.add('inputText-disabled')
+        }
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     setFormNextStep4()
     setVillageListener()
@@ -115,4 +138,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setFormUploadFileKTP()
     setFormNextStep4Batal()
     setFormUploadFileNIBSKU()
+    setFormInputTextDisabledHandler()
 })

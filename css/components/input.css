@@ -55,6 +55,10 @@
     content: url('../../assets/icons/eye.svg');
 }
 
+.inputText:disabled {
+    cursor: not-allowed;
+}
+
 .inputText:focus ~ .floating-label,
 .inputText:not(:focus):valid ~ .floating-label {
     top: -8px;
@@ -73,6 +77,21 @@
 
 .inputText:focus {
     border: 2px solid #498fb6;
+}
+
+.inputText-disabled {
+    color: #c4c4c4;
+}
+
+.floating-label-disabled-with-content {
+    top: -8px;
+    left: 9px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    color: #c4c4c4;
 }
 
 @media (max-width: 500px) {
