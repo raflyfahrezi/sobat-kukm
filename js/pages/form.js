@@ -114,13 +114,9 @@ const setFormInputTextDisabledHandler = () => {
     for (let index = 0; index < listElement.length; index++) {
         const element = listElement[index]
 
-        // console.log(element.disabled)
-
         if (!element.disabled) {
             continue
         }
-
-        console.log(element.value)
 
         if (element.value) {
             const spanElement = element.parentElement.lastElementChild
