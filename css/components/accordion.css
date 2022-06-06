@@ -13,7 +13,7 @@
 .accordion {
     width: 100%;
 
-    color: #498fb6;
+    color: #3b8659;
     text-align: left;
     font-size: 18px;
     font-weight: bold;
@@ -33,7 +33,7 @@
 
 /* .accordion--active,
 .accordion:hover {
-    background-color: #f2faff;
+    background-color: #E8FFF1;
 } */
 
 .accordion::before {
