@@ -11,7 +11,7 @@ nav {
 }
 
 .nav_scrolled {
-    background-color: #59a7d3;
+    background-color: #38bf6e;
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -75,7 +75,7 @@ nav {
 }
 
 .nav_link_item_resposive a {
-    color: #59a7d3;
+    color: #38bf6e;
 }
 
 .nav_link_item:hover {
@@ -100,9 +100,9 @@ nav {
 }
 
 .nav_button_login_responsive {
-    color: #59a7d3;
+    color: #38bf6e;
 
-    border: 1px solid #59a7d3;
+    border: 1px solid #38bf6e;
 }
 
 .nav_button_register {
@@ -188,7 +188,7 @@ nav {
 }
 
 .navigation-form-step > p {
-    color: #59a7d3;
+    color: #38bf6e;
 
     font-weight: bold;
 }
