@@ -46,32 +46,22 @@
     display: flex;
     gap: 40px;
     align-items: center;
+
+    background-color: #e8fff1;
+
+    padding: 16px;
+
+    color: #2ba96f;
 }
-
-.home_about--statContent {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-
-    text-align: center;
-}
-
-.home_about--statDivider {
-    width: 1px;
-    height: 80px;
-
-    background-color: #9c9c9c;
+.home_about--statText {
+    font-size: 14px;
 }
 
 .home_about--statNumber {
-    color: #3b8659;
-
     font-size: 30px;
-    font-weight: 600;
-}
+    font-weight: bold;
 
-.home_about--statLabel {
-    color: #7b7b7b;
+    white-space: nowrap;
 }
 
 @media (max-width: 800px) {
