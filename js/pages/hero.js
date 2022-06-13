@@ -26,7 +26,10 @@ const getTime = (day, hour, minute) => {
 }
 
 const startCountDown = (dayElement, hourElement, minuteElement) => {
-    minuteElement.innerText = getTime(Number(dayElement.innerText), Number(hourElement.innerText), Number(minuteElement.innerText)).minute;
+    let tim = getTime(Number(dayElement.innerText), Number(hourElement.innerText), Number(minuteElement.innerText));
+    dayElement.innerText = tim.day
+    hourElement.innerText = tim.hour
+    minuteElement.innerText = tim.minute
     countDownInterval = setInterval(() => {
         const day = Number(dayElement.innerText)
         const hour = Number(hourElement.innerText)
