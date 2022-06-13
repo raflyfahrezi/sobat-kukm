@@ -61,6 +61,7 @@ const setCountDown = () => {
     if (!dayElement) {
         return
     }
+    if (minuteElement.innerText == '') return;
 
     setTimeout(() => {
         startCountDown(dayElement, hourElement, minuteElement)
