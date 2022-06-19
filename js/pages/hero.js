@@ -26,6 +26,10 @@ const getTime = (day, hour, minute) => {
 }
 
 const startCountDown = (dayElement, hourElement, minuteElement) => {
+    let tim = getTime(Number(dayElement.innerText), Number(hourElement.innerText), Number(minuteElement.innerText));
+    dayElement.innerText = tim.day
+    hourElement.innerText = tim.hour
+    minuteElement.innerText = tim.minute
     countDownInterval = setInterval(() => {
         const day = Number(dayElement.innerText)
         const hour = Number(hourElement.innerText)
@@ -40,7 +44,7 @@ const startCountDown = (dayElement, hourElement, minuteElement) => {
         if (time.day === 0 && time.hour === 0 && time.minute === 0) {
             stopCountDown()
         }
-    }, 1000)
+    }, 1000 * 60)
 }
 
 const stopCountDown = () => {
@@ -57,10 +61,11 @@ const setCountDown = () => {
     if (!dayElement) {
         return
     }
+    if (minuteElement.innerText == '') return;
 
     setTimeout(() => {
         startCountDown(dayElement, hourElement, minuteElement)
-    }, 1000)
+    }, 1000 * (60 - new Date().getSeconds()))
 }
 
 document.addEventListener('DOMContentLoaded', () => {
