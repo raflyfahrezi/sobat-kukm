@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <link rel="shortcut icon" href="../assets/images/Favicon.png" />
+        <title>Sobat KUKM | Kementerian Koperasi dan UKM</title>
+    </head>
+    <body>
+        <!------------------------------ Responsive Navigation ------------------------------>
+        <div class="form-responsive-navigation">
+            <nav id="navigation">
+                <div class="container">
+                    <div class="nav_content">
+                        <div class="nav_logo">
+                            <img
+                                src="../assets/icons/sobatKUKMLogo.svg"
+                                alt="Sobat KUKM"
+                            />
+                        </div>
+                        <div class="nav_menu" id="nav_menu_button">
+                            <img src="../assets/icons/menu.svg" alt="Menu" />
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <nav id="navigationResponsive" class="navigation_responsive">
+            <div class="container">
+                <div class="navigation_responsive_container">
+                    <div class="nav_content">
+                        <div class="nav_logo">
+                            <img
+                                src="../assets/icons/sobatKUKMLogoGrey.svg"
+                                alt="Sobat KUKM"
+                            />
+                        </div>
+                        <div class="nav_menu" id="nav_menu_button_exit">
+                            <img src="../assets/icons/exit.svg" alt="Menu" />
+                        </div>
+                    </div>
+                    <div class="nav_linkButton_responsive">
+                        <div class="nav_link nav_link_responsive">
+                            <div class="nav_link_item nav_link_item_resposive">
+                                <a href="#">raflyfahr15@gmail.com</a>
+                            </div>
+                            <div class="nav_link_item nav_link_item_resposive">
+                                <a href="./settings.html">Settings</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_button nav_button_responsive">
+                        <a href="../login.html">
+                            <button
+                                type="button"
+                                class="button nav_button_login nav_button_login_responsive button-full"
+                            >
+                                Keluar
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="form-container">
+            <!------------------------------ Navigation ------------------------------>
+            <div class="form-navigation">
+                <div class="form-navigation-content">
+                    <div class="form-navigation-logo">
+                        <img src="../assets/icons/sobatKUKMLogo.svg" alt="" />
+                    </div>
+                    <div
+                        class="form-navigation-timeline form-navigation-timeline-admin"
+                    >
+                        <a
+                            href="./index.html"
+                            class="form-navigation-timeline-item"
+                        >
+                            <img src="../assets/icons/bxs_user.svg" alt="" />
+                            <p>Users</p>
+                        </a>
+
+                        <a
+                            href="./settings.html"
+                            class="form-navigation-timeline-item"
+                        >
+                            <img src="../assets/icons/settings.svg" alt="" />
+                            <p class="form-navigation-timeline-item-active">
+                                Settings
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="../login.html" style="text-decoration: none">
+                        <div class="form-navigation-logout">
+                            <div>
+                                <img
+                                    src="../assets/icons/logout.svg"
+                                    alt="Exit"
+                                />
+                            </div>
+                            <p>Keluar</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!------------------------------ Header and Content ------------------------------>
+            <div class="form-headercontent">
+                <!------------------------------ Header ------------------------------>
+                <div class="form-header">
+                    <p><b>Admin</b></p>
+                    <div class="form-header-user">
+                        <img src="../assets/icons/user.svg" alt="" />
+                        <p>admin@gmail.com</p>
+                    </div>
+                </div>
+
+                <!------------------------------ Content ------------------------------>
+                <div class="form-content">
+                    <div class="form-title">
+                        <h2>Periode Pendaftaran</h2>
+                        <p>Atur periode dari pendaftaran BPUM</p>
+                    </div>
+                    <div class="form-body">
+                        <form class="form-section">
+                            <div class="input">
+                                <input type="text" class="inputText" required />
+                                <span class="floating-label">Periode ke-</span>
+                            </div>
+                            <div class="input">
+                                <input type="date" class="inputText" required />
+                                <span class="floating-label">Tanggal Awal</span>
+                            </div>
+                            <div class="input">
+                                <input type="date" class="inputText" required />
+                                <span class="floating-label"
+                                    >Tanggal Akhir</span
+                                >
+                            </div>
+                            <div>
+                                <button
+                                    type="submit"
+                                    class="button button-primary"
+                                >
+                                    Simpan
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="../js/index.js"></script>
+</html>
