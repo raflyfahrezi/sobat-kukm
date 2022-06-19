@@ -1,0 +1,28 @@
+.table-wrapper {
+    width: 100%;
+
+    overflow: scroll;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #38bf6e;
+}
+
+.table th {
+    color: white;
+}
+
+.table td,
+.table th {
+    text-align: left;
+    padding: 8px;
+}
