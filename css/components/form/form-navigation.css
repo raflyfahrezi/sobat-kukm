@@ -55,6 +55,14 @@
     flex-direction: column;
 }
 
+.form-navigation-timeline-admin {
+    gap: 20px;
+}
+
+.form-navigation-timeline-admin a {
+    text-decoration: none;
+}
+
 .form-navigation-timeline-item {
     display: flex;
     gap: 10px;
