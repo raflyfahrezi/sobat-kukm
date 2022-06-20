@@ -26,3 +26,15 @@
     text-align: left;
     padding: 8px;
 }
+
+@media (max-width: 768px) {
+    .table_hide_768 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .table_hide_500 {
+        display: none;
+    }
+}

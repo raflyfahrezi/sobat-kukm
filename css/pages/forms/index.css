@@ -286,4 +286,8 @@
     .form-button {
         flex-direction: column;
     }
+
+    .form-content {
+        padding: 40px 20px;
+    }
 }
