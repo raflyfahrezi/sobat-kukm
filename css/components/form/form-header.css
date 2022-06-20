@@ -35,7 +35,7 @@
     background-color: #38bf6e;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .form-header {
         display: none;
     }
