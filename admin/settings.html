@@ -48,6 +48,9 @@
                                 <a href="#">raflyfahr15@gmail.com</a>
                             </div>
                             <div class="nav_link_item nav_link_item_resposive">
+                                <a href="./index.html">Users</a>
+                            </div>
+                            <div class="nav_link_item nav_link_item_resposive">
                                 <a href="./settings.html">Settings</a>
                             </div>
                         </div>
@@ -124,38 +127,69 @@
                 <!------------------------------ Content ------------------------------>
                 <div class="form-content">
                     <div class="form-title">
-                        <h2>Periode Pendaftaran</h2>
-                        <p>Atur periode dari pendaftaran BPUM</p>
+                        <h2>Setting</h2>
+                        <p>Pengaturan Pendaftaran BPUM</p>
                     </div>
                     <div class="form-body">
-                        <form class="form-section">
-                            <div class="input">
-                                <input type="text" class="inputText" required />
-                                <span class="floating-label">Periode ke-</span>
+                        <form class="form-section" id="form-kontak">
+                            <div class="form-section-title">
+                                <p>Kontak</p>
                             </div>
                             <div class="input">
-                                <input type="date" class="inputText" required />
+                                <input type="text" class="inputText" required id="fmkontak_phone"/>
+                                <span class="floating-label">Nomor Telepon</span>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="inputText" required id="fmkontak_instagram"/>
+                                <span class="floating-label">Instagram</span>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="inputText" required id="fmkontak_facebook"/>
+                                <span class="floating-label">Facebook</span>
+                            </div>                            
+                            <div class="input">
+                                <input type="text" class="inputText" required id="fmkontak_twiter"/>
+                                <span class="floating-label">Twiter</span>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="inputText" required id="fmkontak_lupa_password"/>
+                                <span class="floating-label">No. Telpon Lupa Password</span>
+                            </div>
+                        </form>
+                        <form class="form-section" id="form-periode">
+                            <div class="form-section-title">
+                                <p>Periode Pendaftaran</p>
+                            </div>
+                            <div class="input">
+                                <input type="text" class="inputText" required id="fmdaftar_gelombang_ke"/>
+                                <span class="floating-label">Gelombang ke-</span>
+                            </div>
+                            <div class="input">
+                                <input type="date" class="inputText" required id="fmdaftar_tgl_awal"/>
                                 <span class="floating-label">Tanggal Awal</span>
                             </div>
                             <div class="input">
-                                <input type="date" class="inputText" required />
+                                <input type="date" class="inputText" required id="fmdaftar_tgl_akhir"/>
                                 <span class="floating-label"
                                     >Tanggal Akhir</span
                                 >
-                            </div>
-                            <div>
-                                <button
-                                    type="submit"
-                                    class="button button-primary"
-                                >
+                            </div>                            
+                        </form>                        
+                    </div>
+                    <div class="form-line"></div>
+                    <div class="form-button">
+                        <div>
+                            <a id="btSimpan">
+                                <button class="button button-primary">
                                     Simpan
                                 </button>
-                            </div>
-                        </form>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </body>
     <script type="module" src="../js/index.js"></script>
+    <!--body-end-->
 </html>
