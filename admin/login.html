@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="shortcut icon" href="./assets/images/Favicon.png" />
+        <title>Sobat KUKM | Kementerian Koperasi dan UKM</title>
+    </head>
+    <body>
+        <!------------------------------ Navigation ------------------------------>
+
+        <nav id="navigation">
+            <div class="container">
+                <div class="nav_content_auth">
+                    <div class="nav_logo">
+                        <a href="./index.html">
+                            <img
+                                src="./assets/icons/sobatKUKMLogo.svg"
+                                alt="Sobat KUKM"
+                            />
+                        </a>
+                    </div>
+                    <div class="nav_auth_back">
+                        <div class="nav_auth_back_logo">
+                            <img
+                                src="./assets/icons/leftArrow.svg"
+                                alt="left Arrow"
+                            />
+                        </div>
+                        <a href="./index.html">
+                            <p>Kembali ke halaman utama</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!------------------------------ Content ------------------------------>
+
+        <div class="login_wrapper">
+            <div class="container">
+                <div class="login_content">
+                    <form class="login_form">
+                        <h1>Masuk Akun</h1>
+                        <p class="login_welcome_message">
+                            <b>Selamat datang!</b> <br>Silakan masukkan email dan
+                            password admin
+                        </p>
+                        <div class="login_formInput">
+                            <div class="input">
+                                <input
+                                    type="text"
+                                    class="inputText inputTextWarning"
+                                    required
+                                    id="fmuser"
+                                />
+                                <span
+                                    class="floating-label floating-label-warning"
+                                    >Email</span
+                                >
+                                <p class="inputWarningText">
+                                    NIK yang anda masukkan salah
+                                </p>
+                            </div>
+                            <div class="input">
+                                <input
+                                    name="password"
+                                    type="password"
+                                    class="inputText"
+                                    required
+                                />
+                                <span class="floating-label">Password</span>
+                                <div
+                                    id="passwordToggle"
+                                    class="input_eyePassword"
+                                >
+                                    <img
+                                        src="./assets/icons/eye.svg"
+                                        alt="Eye Password"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <!--captcha-->
+                        <!--<div class="login_setting">
+                            <div class="login_settingRememberMe">
+                                <input
+                                    value=""
+                                    type="checkbox"
+                                    id="rememberme"
+                                    name="rememberme"
+                                />
+                                <label for="rememberme"> Ingat Saya</label>
+                            </div>
+                            <a href="./forget-password.html">Lupa Password?</a>
+                        </div>-->
+                        <div>
+                            <a href="./forms/step-1.html">
+                                <button
+                                    type="button"
+                                    class="button button-primary button-full"
+                                >
+                                    Masuk
+                                </button>
+                            </a>
+                        </div>
+                        <!--<div class="login_noAccount">
+                            <p>
+                                Belum punya akun?
+                                <a href="./register.html">
+                                    <span>Daftar disini</span>
+                                </a>
+                            </p>
+                        </div>-->                    
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------ Footer ------------------------------>
+
+        <footer>
+            <div class="container">
+                <div class="footer_content">
+                    <!-- Footer About -->
+                    <div class="footer_about">
+                        <div
+                            class="footer_about--section footer_about--sectionAbout"
+                        >
+                            <div class="footer_about--sectionHeader">
+                                <div class="footer_about--image">
+                                    <img
+                                        src="./assets/images/logo_kemekop.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <p>
+                                    Kementerian Koperasi dan Usaha Kecil dan
+                                    Menengah Republik Indonesia
+                                </p>
+                            </div>
+                            <p
+                                style="text-align: justify"
+                                class="footer_about--sectionText"
+                            >
+                                Kementerian Koperasi dan Usaha Kecil dan
+                                Menengah mempunyai tugas menyelenggarakan urusan
+                                di bidang koperasi dan usaha kecil dan menengah
+                                dalam pemerintahan untuk membantu Presiden dalam
+                                menyelenggarakan pemerintahan negara.
+                            </p>
+                        </div>
+
+                        <!-- Footer Contact -->
+                        <div class="footer_about--sectionContact">
+                            <div class="footer_about--sectionHeader">
+                                <p>Kontak Kami</p>
+                            </div>
+                            <div class="footer_about--sectionContent">
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/phone.svg"
+                                            alt="Phone"
+                                        />
+                                    </div>
+                                    <p class="footer_about--sectionText">
+                                        <b>0882 1012 5663</b>
+                                    </p>
+                                </div>
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/instagram.svg"
+                                            alt="Instagram"
+                                        />
+                                    </div>
+                                    <a
+                                        href="https://www.instagram.com/kemenkopukm/"
+                                        class="footer_about--sectionText"
+                                    >
+                                        <b>@kemenkopukm</b>
+                                    </a>
+                                </div>
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/facebook.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a
+                                        href="https://www.facebook.com/kemenkopukm"
+                                        class="footer_about--sectionText"
+                                    >
+                                        <b>kemenkopukm</b>
+                                    </a>
+                                </div>
+                                <div
+                                    class="footer_about--sectionContactContent"
+                                >
+                                    <div
+                                        style="
+                                            display: flex;
+                                            align-items: center;
+                                        "
+                                    >
+                                        <img
+                                            src="./assets/icons/twitter.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <a
+                                        href="https://twitter.com/KemenkopUKM"
+                                        class="footer_about--sectionText"
+                                    >
+                                        <b>@kemenkopukm</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer Location -->
+                        <div
+                            class="footer_about--section footer_about--sectionLocation"
+                        >
+                            <div class="footer_about--sectionHeader">
+                                <p>Lokasi Kami</p>
+                            </div>
+                            <p class="footer_about--sectionText">
+                                Jl. H. R. Rasuna Said No.Kav. 3-4, RT.6/RW.7,
+                                Kuningan, Karet Kuningan, Kecamatan Setiabudi,
+                                Kota Jakarta Selatan, Daerah Khusus Ibukota
+                                Jakarta 12940
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="footer_line" />
+                    <div class="footer_cp">
+                        <p class="footer_cp_1">
+                            Copyrights © 2022 Sobat KUKM | Kementerian Koperasi
+                            dan UKM
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script type="module" src="./js/index.js"></script>
+    <!--body-end-->
+</html>
