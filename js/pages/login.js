@@ -30,7 +30,7 @@ const setConfirmPasswordListener = () => {
     passwordToggle.addEventListener('click', () => {
         const type = passwordElement.getAttribute('type')
 
-        console.log(type)
+        // console.log(type)
 
         if (type === 'password') {
             passwordElement.setAttribute('type', 'text')
