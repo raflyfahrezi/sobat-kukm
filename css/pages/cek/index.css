@@ -1,0 +1,158 @@
+.cek_nav {
+    background-color: #38bf6e;
+}
+
+
+
+.cek_wrapper {
+    width: 100%;
+
+    background-size: 100%;
+
+}
+
+.cek_content {
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+.cek_form {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 130px 0 50px 0;
+
+    padding: 30px;
+    border-radius: 16px;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    background-color: #edf5f9;
+}
+
+.cek_hasil {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 180px 0 150px 0;
+
+    padding: 30px;
+    border-radius: 16px;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    background-color: #edf5f9;
+}
+
+.cek_form h1 {
+    color: #3b8659;
+
+    font-size: 30px;
+
+    text-align: center;
+}
+
+.cek_welcome_message {
+    color: #7b7b7b;
+
+    text-align: center;
+}
+
+.cek_setting {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cek_setting a {
+    color: #3b8659;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.cek_settingRememberMe {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+.cek_settingRememberMe b {
+    color: #3b8659;
+}
+
+.cek_formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.cek_noAccount {
+    font-size: 14px;
+
+    text-align: center;
+}
+
+.cek_noAccount span {
+    font-weight: 600;
+
+    color: #3b8659;
+
+    text-decoration: none;
+}
+
+.cek_noAccount a {
+    text-decoration: none;
+}
+
+.input_eyePassword {
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+}
+
+.input_eyePassword img {
+    width: 100%;
+    max-width: 20px;
+}
+
+.cek_form_image {
+    text-align: center;
+}
+
+.cek_form_image img {
+    width: 100%;
+    max-width: 250px;
+}
+
+@media (max-width: 500px) {
+    .cek_form h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cek_form {
+        max-width: 400px;
+    }
+}

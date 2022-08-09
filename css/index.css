@@ -6,6 +6,7 @@
 @import url(./pages/forms/index.css);
 @import url(./pages/login/index.css);
 @import url(./pages/admin/index.css);
+@import url(./pages/cek/index.css);
 
 /* Import from components folder */
 @import url(./components/index.css);
